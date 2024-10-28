@@ -1,0 +1,125 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    max-width: 1920px;
+
+}
+
+.main {
+    padding-left: 400px;
+    padding-top: 40px;
+    height: 700px;
+    background-color: rgba(238, 239, 241, 1);
+}
+
+p {
+    width: 540px;
+    height: 67px;
+    line-height: 1.5;
+    color: rgba(114, 114, 114, 1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 42px;
+    text-transform: uppercase
+}
+
+ nav li:hover {
+    text-decoration: underline
+}
+
+span {
+    color: rgba(52, 84, 122, 1);
+    font-weight: 600;
+}
+
+button {
+    background-color: rgba(52, 84, 122, 1);
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 162px;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 32px;
+    width: 540px;
+    height: 30px;
+    text-align: center;
+
+}
+
+button {
+    margin-top: 65px;
+    width: 225px;
+    height: 65px;
+    text-align: center;
+}
+
+.aboutme {
+    height: 359px;
+    margin-left: 690px;
+    text-align: center;
+}
+.aboutme div {
+    padding-top: 112px;
+
+}
+
+
+.projects {
+    background-color: rgba(52, 84, 122, 1);
+    height: 250px;
+    color: white;
+    font-size: 16px;
+}
+
+.projects ul {
+    margin-left: 409px;
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    padding: 100px;
+}
+ img {
+    padding: 3px;
+ }
+
+.projects ul li {
+  display: flex;
+  line-height: 1.5;
+}
+
+.process {
+    height: 1004px;
+    
+    text-align: center;
+}
+.process div {
+    padding-top: 100px;
+    margin-left: 690px;
+    margin-bottom: 57px;
+}
+.pics {
+    margin-left: 100px;
+    width: 1110px;
+    height: 600px;
+}
+/*.play {
+    position: absolute;
+
+}*/
+ footer {
+    background-color: rgba(52, 84, 122, 1);
+    color: white;
+    height: 150px;
+ }
+ footer section{
+   margin-left: 405px;
+   padding-top: 50px;
+ }
